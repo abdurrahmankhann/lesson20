@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>javascript basic functions</h2>
+    <button onclick="myfunction()">click me</button>
+    <button onclick="myfunction1('abdurrahman')">intro</button>
+    <p id="p1"></p>
+    <p id="p2"></p>
+
+    <script>
+        function myfunction() {
+            document.getElementById("p1").innerHTML = "welcome to my first java script function";
+        }
+        function myfunction1(name) {
+            document.getElementById("p2").innerHTML = "Hello i am " + name;
+        }
+    </script>
+</body>
+
+</html>
